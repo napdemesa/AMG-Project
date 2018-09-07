@@ -1,0 +1,19 @@
+<% include ./partials/header %>
+
+<div class="container">
+    
+    <div class="jumbotron">
+        <h1 class="display-4">Trending Now</h1>
+        <hr class="my-4">
+        <p class="lead">See what all the buzz is about!</p>
+    </div>
+    
+    <div class="row container middleInfo">
+        <% dashboard.Data.TitleRows[7].Titles.forEach(function(item){ %>
+            <% include ./partials/middleware/index %>
+        <% }); %>
+    </div>
+    
+</div>
+
+<% include ./partials/footer %>

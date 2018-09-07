@@ -1,0 +1,14 @@
+            <div class="row topPad">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <img src="<%= item.MasterArtUrl %>">
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <% if(item.OverallRating == 0){ %>
+                        <p><%= item.Name %> | <%= item.ShowInfoTitle %> | No Rating Yet</p>
+                    <% } else { %>
+                        <p><%= item.Name %> | <%= item.ShowInfoTitle %> | Rating: <%= item.OverallRating %>/5</p>
+                    <% } %>
+                    <p><%= item.LongSynopsis %></p>
+                </div>
+            </div>
+            <hr>

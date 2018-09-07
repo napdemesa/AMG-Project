@@ -1,0 +1,19 @@
+<% include ./partials/header %>
+
+<div class="container">
+    
+    <div class="jumbotron">
+        <h1 class="display-4">Anime Dubs</h1>
+        <hr class="my-4">
+        <p class="lead">Here are some anime dubs we offer!</p>
+    </div>
+    
+    <div class="row container middleInfo">
+        <% dashboard.Data.TitleRows[4].Titles.forEach(function(item){ %>
+            <% include ./partials/middleware/index %>
+        <% }); %>
+    </div>
+    
+</div>
+
+<% include ./partials/footer %>

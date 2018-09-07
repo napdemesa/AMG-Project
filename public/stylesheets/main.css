@@ -1,0 +1,25 @@
+body {
+    background-color: #1A1A1D;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/a0/16/99/a016992542853f56168436eb10216e00.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    background-color: #4E4E50;
+}
+
+.modal {
+    color: black;
+}
+
+.row.middleInfo {
+    background-color: #1A1A1D;
+}
+
+.row.topPad {
+    padding-top: 20px;
+}
+
